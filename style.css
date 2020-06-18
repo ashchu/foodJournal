@@ -84,8 +84,23 @@ h1{
 
 .column{
 	flex: 23%;
-	max-width: 25%;
+	max-width: 33.33%;
 	padding: 0 0.5%;
+}
+
+.column ul {
+	font-size: 13px;
+}
+.ol li {
+	font-weight: bold;
+}
+.column li {
+	margin: 10px;
+}
+.column h2 {
+	text-align: center;
+	width: 100%;
+	margin-top: 2.5%;
 }
 
 .column img{
@@ -314,4 +329,30 @@ z-index: 1000000;
 }
 .fl-pop-up__overlay--close:hover {
   color: #fff;
+}
+
+.popup-display {
+	margin: 20px 50px;
+	display: block;
+	color: black;
+}
+
+.popLeft {
+	max-width: 20%;
+}
+
+.popCenter {
+	margin-left: 10%;
+}
+
+.popLeft img {
+	position: absolute;
+  top: 30%;
+	width: 200px;
+	height: 200px;
+	vertical-align: middle;
+	border: 5px solid black;
+	border-radius: 2px;
+	object-fit: cover;
+	/* overflow: hidden; */
 }
